@@ -1,0 +1,219 @@
+extends ../layouts/main-layout.pug
+
+block title
+    title Программа I съезда производителей спортивной индустрии
+
+block content
+  div.congress
+    p.congress__title ПРОГРАММА I СЪЕЗДА ПРОИЗВОДИТЕЛЕЙ СПОРТИВНОЙ ИНДУСТРИИ
+    div.congress__date-wrapper
+      ul.congress__list
+        li.congress__item
+          span.congress__data-label Дата проведения:
+          span.congress__date 14 сентября 2018 г.
+        li.congress__item
+          span.congress__data-label Место проведения: 
+          span.congress__date г. Москва, Гостиный Двор, ул. Ильинка, 4
+        li.congress__item
+          span.congress__link-wrapper Регистрация участников проходит на сайте 
+          a.congress__item-link(href='http://sportcity.expert') http://sportcity.expert
+    div.congress__target-wrapper
+      span.congress__target-label Цель съезда: 
+      span.congress__target-text Поднять актуальные темы и по результатам съезда сформировать резолюцию о целях коллегиальной работы на ближайший год.
+    table.congress__table
+      tr.congress__table-row.congress__table-row-title
+        td.congress__table-column График
+        td.congress__table-column Основные мероприятия
+      tr.congress__table-row
+        td.congress__table-column.congress__table-column--date 10.00-11.00
+        td.congress__table-column 
+          p.congress__column-title Регистрация участников съезда
+          ul.congress__column-list
+            li.congress__column-item Приветственный кофе-брейк;
+            li.congress__column-item Предоставление дорожной карты мероприятия; 
+            li.congress__column-item Интерактивная выставка;
+            li.congress__column-item Деловые знакомства;
+            li.congress__column-item Вручение памятных подарков.
+      tr.congress__table-row
+        td.congress__table-column.congress__table-column--date 11:00-12:30
+        td.congress__table-column 
+          p.congress__column-title Пленарное заседание «Развитие отечественной спортивной индустрии»
+          .congress__column-post Модератор: 
+          .congress__column-post-item
+            span.congress__column-post-name Александр Невзгода 
+            span.congress__column-post-text (Спорт-Экспресс).
+          .congress__column-post Спикеры:
+          .congress__column-post-item
+              span.congress__column-post-name Д.В. Колобов 
+              span.congress__column-post-text – директор Департамента развития промышленности социально-значимых товаров Минпромторга России;
+          .congress__column-post-item
+              span.congress__column-post-name В.Н. Малиц 
+              span.congress__column-post-text  – директор Департамента развития физической культуры и массового спорта Минспорта России;
+          .congress__column-post-item
+              span.congress__column-post-name О.Н. Демченко 
+              span.congress__column-post-text – директор Департамента городской среды Минстроя России; 
+          .congress__column-post-item
+              span.congress__column-post-name А.В. Попов 
+              span.congress__column-post-text – почетный член Международного Олимпийского комитета;
+          .congress__column-post-item
+              span.congress__column-post-name М.В. Цай 
+              span.congress__column-post-text – руководитель производственного подразделения Декатлон (ООО Октоблу»);
+          .congress__column-post-item
+              span.congress__column-post-name М.А. Чапов 
+              span.congress__column-post-text – Руководитель проекта по поддержке экспорта потребительских товаров  АО «Российский экспортный центр»;
+          .congress__column-post-item
+              span.congress__column-post-name С.А. Вологодский 
+              span.congress__column-post-text  – заместитель директора Фонда развития промышленности.
+      tr.congress__table-row
+        td.congress__table-column.congress__table-column--date 12.30-13.00
+        td.congress__table-column 
+          p.congress__column-title Кофе-брэйк.
+      tr.congress__table-row
+        td.congress__table-column.congress__table-column--date 10.00-11.00
+        td.congress__table-column 
+          p.congress__column-title Приветственная речь руководителя Ассоциации Спортивного Инжиниринга Максимовой А.В.
+          ul.congress__column-list
+            li.congress__column-item Презентация портала Российской спортивной индустрии;
+            li.congress__column-item Анонсирование ближайшей деятельности съезда; 
+            li.congress__column-item Приглашение на практические сессии участников съезда.
+      tr.congress__table-row
+        td.congress__table-column.congress__table-column--date 13.15-14.00
+        td.congress__table-column 
+          p.congress__column-title «Стандартизация в сфере спортивной индустрии»
+          .congress__column-post Модератор: 
+          .congress__column-post-item
+            span.congress__column-post-name Быканов Н.С.
+            span.congress__column-post-text  – председатель Технического комитета по стандартизации ТК 444 «Спортивные и изделия для туризма, оборудование, инвентарь, физкультурные и туристические услуги»;
+          .congress__column-post Спикеры:
+          .congress__column-post-item
+              span.congress__column-post-name Кузнецова И.В. 
+              span.congress__column-post-text  – Минпросвещение России;
+          .congress__column-post-item
+              span.congress__column-post-name Тощев Д.А. 
+              span.congress__column-post-text – Росстандарт РФ Заместитель начальника Управления технического регулирования и стандартизации Федерального агентства по техническому регулированию и метрологии;
+          .congress__column-post-item
+              span.congress__column-post-name Стреха А.А. 
+              span.congress__column-post-text – Стандартинформ руководитель департамента  ТПП  Комитет по предпринимательству в сфере спорта (зам. Рук. Комитета)
+          .congress__column-post Приглашенные гости: 
+          .congress__column-post-item
+              span.congress__column-post-name Авдеева Н.В. 
+              span.congress__column-post-text – профессиональный эксперт по стандартизации и сертификации спортивного оборудования и инвентаря. отв. секретарь ТК 444. Тема доклада: О взаимодействии ТК 444 и международного технического комитета TC/ISO 83;
+          .congress__column-post-item
+              span.congress__column-post-name Королев В. 
+              span.congress__column-post-text – руководитель испытательной лаборатории, член ТК 444 . Тема доклада: Разработка Технического регламента ЕВРАЗЕС
+          .congress__column-post-item
+              span.congress__column-post-name Полухина Т.Г. 
+              span.congress__column-post-text  – вице-президент Федерации фитнес-аэробики России. Тема доклада: Стандарты и фитнес.
+          .congress__column-post Представители отечественных производителей спортивного оборудования и инвентаря о практическое применение стандартов при производстве: 
+          .congress__column-post-item
+              span.congress__column-post-name Мяконьков В.Б. 
+              span.congress__column-post-text – руководитель предприятия;
+          .congress__column-post-item
+              span.congress__column-post-name Уклюдов М. Л. 
+              span.congress__column-post-text – зам. руководителя предприятия;
+          .congress__column-post-item
+              span.congress__column-post-name Савин И. 
+              span.congress__column-post-text – генеральный директор;
+          .congress__column-post-item
+              span.congress__column-post-name Лахманский Е.С. 
+              span.congress__column-post-text – директор по развитию ВегаГрупп.
+    table.congress__table
+      caption.congress__table-caption Практические сессии съезда
+      tr.congress__table-row
+        td.congress__table-column.congress__table-column--date 14:00-15:30
+        td.congress__table-column
+          .congress__table-column-to
+            p.congress__column-title «Механизмы государственной поддержки для российских производителей спортивной индустрии»
+            .congress__column-post Модератор: 
+            .congress__column-post-item
+              span.congress__column-post-name Соколов А.М.
+              span.congress__column-post-text – начальник отдела Департамента развития промышленности социально-значимых товаров Минпромторга Росс
+            .congress__column-post Спикеры: 
+            .congress__column-post-item
+              span.congress__column-post-name Гуленкова Ю.В.
+              span.congress__column-post-text – руководитель направления «Медицинские изделия и ИТ в здравоохранении» кластера биомедицинских технологий Фонда «Сколково»;
+            .congress__column-post-item
+              span.congress__column-post-name Представитель 
+              span.congress__column-post-text Фонда содействия инновациям;
+            .congress__column-post-item
+              span.congress__column-post-name Представитель 
+              span.congress__column-post-text Фонда развития промышленности.
+            .congress__column-post Приглашенные гости: 
+            .congress__column-post-item
+              span.congress__column-post-name Колоша Виктор Федорович
+              span.congress__column-post-text – учредитель ООО «ОблМАФмонтаж»;
+            .congress__column-post-item
+              span.congress__column-post-name Жаринов Андрей Владимирович 
+              span.congress__column-post-text – генеральный директор ООО «Каро»;
+            .congress__column-post-item
+              span.congress__column-post-name Савин Иван Анатольевич 
+              span.congress__column-post-text – генеральный директор ООО «Заряд»; 
+            .congress__column-post-item
+              span.congress__column-post-name Лахманский Е.С. 
+              span.congress__column-post-text – директор по развитию «ВегаГрупп».
+          .confgress__table-column-bottom
+            p.congress__column-title «Механизмы стимулирования экспорта»
+            .congress__column-post Модератор сессии:
+            .congress__column-post-item
+              span.congress__column-post-name Хабибуллин Роман
+              span.congress__column-post-text – руководитель направления по программам поддержки экспорта АСИ.
+            .congress__column-post Спикеры: 
+            .congress__column-post-item
+              span.congress__column-post-name Чапов М.А.
+              span.congress__column-post-text – руководитель проекта по поддержке экспорта потребительских товаров;
+            .congress__column-post-item
+              span.congress__column-post-name Схулухия К.И.
+              span.congress__column-post-text – представитель Минпромторга России.
+            .congress__column-post Приглашенные гости: 
+            .congress__column-post-item
+              span.congress__column-post-name Представители
+              span.congress__column-post-text отечественной спортивной индустрии расскажут о своем опыте выхода на экспорт.
+      tr.congress__table-row
+        td.congress__table-column.congress__table-column--date 15:40-17:00
+        td.congress__table-column
+          .congress__table-column-to
+            p.congress__column-title «HR & Recruitment: Проблемы человеческого капитала в сфере спортивной индустрии»
+            .congress__column-post Модератор сессии: 
+            .congress__column-post-item
+              span.congress__column-post-name Максимова Анна Владимировна
+              span.congress__column-post-text – исполнительный директор Ассоциации Спортивного Инжиниринга, Эксперт в области HR-брендинга.
+            .congress__column-post Спикеры: 
+            .congress__column-post-item
+              span.congress__column-post-name Шешуков Д.А.
+              span.congress__column-post-text  – бизнес-системщик, эксперт в построении бизнес-процессов и автоматизации бизнеса;
+            .congress__column-post-item
+              span.congress__column-post-name Долгачева А.А. 
+              span.congress__column-post-text – руководитель Кадрового агентства «Долсо»;
+            .congress__column-post-item
+              span.congress__column-post-name Грунина С. 
+              span.congress__column-post-text – эксперт-профайлер, специалист в области оперативной психодиагностики, Разработчик и главный преподаватель программы «Бизнес профайлинг» для экономического факультета МГУ;
+            .congress__column-post-item
+              span.congress__column-post-name Представители 
+              span.congress__column-post-text Минпросвета России.
+            .congress__column-post Приглашенные гости: 
+            .congress__column-post-item
+              span.congress__column-post-name Представители 
+              span.congress__column-post-text отечественной спортивной индустрии расскажут о своем опыте успешного решения вопроса с персоналом.
+          .confgress__table-column-bottom
+            p.congress__column-title «Участие в закупках для обеспечения государственных и муниципальных нужд»
+            .congress__column-post Модератор сессии:
+            .congress__column-post-item
+              span.congress__column-post-name Лахманский Е. С.
+              span.congress__column-post-text  – представитель Ассоциации.
+            .congress__column-post Спикеры: 
+            .congress__column-post-item
+              span.congress__column-post-name Демченко О.Н.
+              span.congress__column-post-text – директор Департамента городской среды Минстроя России
+            .congress__column-post-item
+              span.congress__column-post-name Минаев А.В.
+              span.congress__column-post-text – представитель Минпросвета России;
+            .congress__column-post-item
+              span.congress__column-post-name Представитель
+              span.congress__column-post-text Ассоциация парков Москвы.
+      tr.congress__table-row
+        td.congress__table-column.congress__table-column--date 17:00-18:00
+        td.congress__table-column
+            p.congress__column-title ФУРШЕТ ДЛЯ УЧАСТНИКОВ I СЪЕЗДА ПРОИЗВОДИТЕЛЕЙ СПОРТИВНОЙ ИНДУСТРИИ
+  
+  
+      

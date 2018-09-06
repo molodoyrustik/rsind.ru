@@ -1,0 +1,149 @@
+.congress {
+  width: 100%;
+  font-family: 'Arial';
+  font-size: 12px;
+  padding: 1%;
+  box-sizing: border-box;
+}
+.congress__title {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #2D6FAA;
+  text-transform: uppercase;
+}
+
+.congress__date-wrapper {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  list-style: none;
+}
+
+.congress__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+.congress__item {
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.congress__data-label {
+  font-size: 12px;
+}
+
+.congress__date {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.congress__link-wrapper {
+  color: #FC8827;
+}
+
+.congress__item-link {
+  color: #FC8827;
+}
+
+.congress__target-wrapper {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.congress__target-label {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.congress__target-text {
+  margin: 0;
+  padding: 0;
+}
+
+.congress__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.congress__table-row {
+  border: 1px solid black;
+}
+
+.congress__table-row-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(23, 103, 185);
+}
+
+.congress__table-column {
+  padding: 5px;
+  border: 1px solid black;
+}
+.congress__table-column--date {
+  min-width: 108px;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+}
+
+.congress__column-title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #FC8827;
+}
+
+.congress__column-list {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.congress__column-item {
+  margin: 0;
+  margin-bottom: 3px;
+  padding: 0;
+}
+
+.congress__column-post {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  color: rgb(47,117, 181);
+  text-decoration: underline ;
+}
+
+.congress__column-post-item {
+  margin-bottom: 20px;
+}
+
+.congress__column-post-name {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.congress__table-column-top {
+  border-bottom: 1px solid black;
+}
+
+.congress__table-caption {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(23, 103, 185);
+  text-align: left;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
